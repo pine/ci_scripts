@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# -lt 3 ]; then
+if [ $# -lt 1 ]; then
     echo "Arguments error" 1>&2
     echo "Usage: bash install_nacl_sdk.sh pepper_37" 1>&2
     exit 1
